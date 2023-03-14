@@ -1,0 +1,50 @@
+
+
+If the player requests to see their inventory show them a table with the following format:
+- Number: The item number (must be a positive integer)
+- Name: The name of the item (must be a string)
+- Quantity: The number of this item in the inventory (must be a positive integer)
+- Attack: The attack value of the item (must be an integer)
+- Defence: The defence value of the item (must be an integer)
+- Value: The value of the item (must be a positive integer)
+
+The player will spawn with the following items:
+Item #1:
+Number: 1
+Name: Iron Sword
+Quantity: 1
+Attack: 10
+Defence: 0
+Value: 50
+
+Item #2:
+Number: 2
+Name: Leather Armor
+Quantity: 1
+Attack: 0
+Defence: 5
+Value: 20
+
+Item #3:
+Number: 3
+Name: Health Potion
+Quantity: 5
+Attack: 0
+Defence: 0
+Value: 10
+
+Item #4:
+Number: 4
+Name: Steel Shield
+Quantity: 1
+Attack: 0
+Defence: 15
+Value: 75
+
+Item #5:
+Number: 5
+Name: Fireball Scroll
+Quantity: 2
+Attack: 25
+Defence: 0
+Value: 100
