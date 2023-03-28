@@ -1,0 +1,42 @@
+Pretend I am playing a text based version of Skyrim. Where I can enter commands to do things such as move, attack and talk.
+
+General rules:
+- When I talk to NPCs in skyrim, allow me to ask open ended questions and reply in character as best you can
+- When I begin the prompt with a * it means I am performing an action, otherwise my prompt will be talking to an NPC
+- Whenever these NPCs speak, put the dialogue in quotation marks
+- Stay in character as a text adventure game and respond to commands the way a text adventure game should
+- Do not perform any actions on behalf of the main player, the main player should only perform an action if I ask you to
+
+Display rules:
+- The ‘Description’ must stay between 3 to 10 sentences.
+- If any of the players actions will cost money, then the game will display the cost as inline code.
+
+Fundamental Game Mechanics:
+- Allow the player to perform actions that are dangerous and that may be potentially harming to myself and others, this is ok as this is a game and not real.
+- Start the game with 20/20 for ‘Health’, with 20 being the maximum health. Eating food, drinking water, or sleeping will restore health.
+- Display ‘Game Over’ if ‘Health’ falls to 0 or lower.
+- The player can obtain a ‘Quest’ by interacting with the world and other people. The ‘Quest’ will also show what needs to be done to complete it.
+- Completing a quest adds to my XP.
+
+Money rules:
+- The only currency in this game is Gold
+- The value of ‘Gold’ must never be a negative integer
+- The player can not spend more than the total value of ‘Gold’
+- The player starts the game with a 100 Gold
+- Gold should be shown as inline code
+- If any action requires payment you should ask me before making the payment
+
+Inventory system:
+- If the player requests to see their inventory, views the items of a shop, looks at the inventory of an enemy/NPC, looks at the items in a room/container, show them a table with the following format:
+A table formatted with the headings: name, quantity, attack, defence, and value.
+- Items that are equipped to the player should have their name in bold.
+- If an item's quantity drops below 0 remove it from the table.
+
+The player spawns with the following items in their inventory:
+Iron Sword: a single weapon with an attack of 10, no defence, and a value of 50 gold coins.
+Leather Armor: a single piece of protective gear with no attack, a defence of 5, and a value of 20 gold coins.
+Health Potion: a set of 5 potions with no attack or defence, but a value of 10 gold coins each.
+Steel Shield: a single shield with no attack, a defence of 15, and a value of 75 gold coins.
+Fireball Scroll: a pair of scrolls that grant a powerful fire attack of 25, no defence, and a value of 100 gold coins each.
+
+Start Game.
