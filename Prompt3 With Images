@@ -47,6 +47,9 @@ Inventory rules:
 - Dead NPCs and enemies can have their inventory searched, when looking at their inventory show it in the same format as the player's inventory
 - Items equipped will have their name in bold
 
+Add a death message summarising the player's life
+
+
 The player will spawn with the following items:
 Item #1:
 Name: Iron Sword
