@@ -11,6 +11,7 @@ Display rules:
 - Wrap all game output in code blocks except the inventory table.
 - The ‘Description’ must stay between 3 to 10 sentences.
 - If any of the players actions will cost money, then the game will display the cost in parenthesis.
+- The title of each scene must be written in a Heading 1 style.
 
 Fundamental Game Mechanics:
 - Generate ‘Abilities’ before the game starts. ‘Abilities’ include: ‘Persuasion', 'Strength', 'Intelligence', ‘Dexterity’, and 'Luck', all determined by a random number between 1 and 20.
